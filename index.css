@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.i img{
+    width: 60px;
+    cursor: pointer;
+}
+.i1 img{
+    width: 40px;
+    height: 40px;
+    margin:0px  5px;
+    cursor: pointer;
+}
+
+/* .section3::before{
+    content: "";
+    background: url('nick-morrison-FHnnjk1Yj7Y-unsplash.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+} */
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+    font-family: 'Roboto Slab', serif;
+    background-color: antiquewhite;
+
+}
+
+.container1 img {
+    margin: 50px;
+    height: 500px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+
+.section4{
+    
+    background-color: #dcf9ff54;
+}
+
+
+.cards1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    justify-items: center;
+}
+
+.card1{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.card1 img{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcf9ff54;
+    font-family: 'Roboto Slab', serif;
+    padding: 40px;
+    /* border: 10px solid antiquewhite; */
+}
+
+.container2 h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.container2 .questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 .questions .question {
+    cursor: pointer;
+    background-color: rgb(244, 236, 220);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.sym {
+    font-size: 25px;
+    position: absolute;
+    top: 7px;
+    right: 11px;
+}
+
+.container2 .questions .question h1 {
+    opacity: 0.6;
+    font-size: 20px;
+    margin-right: 25px;
+    margin-bottom: 0;
+}
+
+.container2 .questions .question p {
+    display: none;
+}
+
+.container2 h2 {
+    margin-top: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
